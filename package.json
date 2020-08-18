@@ -1,0 +1,16 @@
+{
+  "name": "node-proxy",
+  "version": "1.0.0",
+  "description": "node.js proxy server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  	"nodejs",
+  	"node",
+    "proxy"
+  ],
+  "author": "iamyourcat",
+  "license": "ISC"
+}
