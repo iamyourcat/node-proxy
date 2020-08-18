@@ -7,10 +7,10 @@ http.createServer(onRequest).listen(port);
 console.log("Proxy server is running. Using port: "+port+".");
 
 function getHostname(url){
-	res = url;
-	if(res.startsWith("https://"))res=res.slice(8);
-	if(res.startsWith("http://"))res=res.slice(7);
-	return res.split("/")[0];
+  res = url;
+  if(res.startsWith("https://"))res=res.slice(8);
+  if(res.startsWith("http://"))res=res.slice(7);
+  return res.split("/")[0];
 }
 
 function onRequest(client_req, client_res) {
